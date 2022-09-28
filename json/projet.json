@@ -1,0 +1,28 @@
+{
+    "projets": [
+        {
+            "nom":"Pass O Lan",
+            "description": "Site web permettant de gérer des evenements, dont des LAN et des tournois.",
+            "techno":[
+               "Laravel-PHP","Ajax","Bootstrap","PhpMyAdmin"
+            ],
+            "accessibilite":"private"
+        },
+        {
+            "nom":"Pass O Camping",
+            "description":"Mise en place d'une base de donnee avec la méthode merise afin de gerer un camping de vacance, emploie du temps, gestion des employees, etc...",
+            "techno":[
+                "SQL","PhpMyAdmin","Looping","Merise"
+            ],
+            "accessibilite":"private"
+        },
+        {
+            "nom":"CV terminal Python",
+            "description":"CV sur terminal en python",
+            "techno":[
+                "Python","Json"
+            ],
+            "accessibilite":"public github"
+        }
+    ]
+}

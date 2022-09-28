@@ -1,0 +1,15 @@
+{
+    "experiences": [
+        {
+            "nom": "Le Bidibul",
+            "lieu": "Troyes",
+            "type": "Stage",
+            "duree" : "Mai 2021 - Juillet 2021",
+            "poste" : "Developpement web",
+            "techno" : [
+                "Symfony-PHP","Tailwind CSS","PhpMyAdmin"
+            ],
+            "description":"Réalisation d'un site clip&collect puis d'un blog."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "competence":[
+        {
+            "langage":[
+                {
+                    "web":[
+                        "HTML","CSS","JavaScript","PHP"
+                    ],
+                    "mobile":[
+                        "Java"
+                    ],
+                    "poo":[
+                        "Python","Java","C++"
+                    ],
+                    "autre":[
+                        "C","SQL","PL/SQL"
+                    ]
+                }
+            ],
+            "framework":[
+                "Symfony","Laravel","Bootstrap","Tailwind CSS"
+            ],
+            "autre":[
+                "Looping","GIT","Firebase","Apache","Packet Tracer","UML"
+            ]
+        }
+    ]
+}

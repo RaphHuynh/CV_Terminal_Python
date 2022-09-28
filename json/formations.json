@@ -1,0 +1,31 @@
+{
+    "formations": [
+        {
+            "nom":"Licence EEEA",
+            "date": [                    
+                "septembre 2018",
+                "juillet 2019"
+            ],
+            "lieu":"URCA - REIMS",
+            "mention":null
+        },
+        {
+            "nom":"Licence Informatique 1er Annee",
+                "date":[
+                    "septembre 2019",
+                    "juillet 2020"
+                ],
+            "lieu":"URCA - REIMS",
+            "mention":"BIEN"
+        },
+        {
+            "nom":"Licence Informatique 2 Annee",
+                "date":[
+                    "septembre 2021",
+                    "en cours"
+                ],
+            "lieu":"URCA - REIMS",
+            "mention":null
+        }
+    ]
+}
