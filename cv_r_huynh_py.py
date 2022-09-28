@@ -37,7 +37,7 @@ print("                        /\  ___\   /\ \  / /")
 print("                        \ \ \____  \ \ \/ /")
 print("                         \ \_____\  \ \__/")
 print("                          \/_____/   \/_/\n")
-print("                          Raphaëlle HUYNH\n")
+print("                          Raphaelle HUYNH\n")
 
 print("Bienvenue sur mon CV \x1b[38;5;220m:)\x1b[0m Pour afficher la liste des commandes tappez \x1b[38;5;220mcommand\x1b[0m.\nPour valider les commandes appuyer sur Enter.\n")
 
