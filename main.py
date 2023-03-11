@@ -5,6 +5,14 @@
 from curses import echo
 import os, urllib.request, json
 
+import sys;
+sys.path.insert(1, "./src");
+from formation import formation ;
+from experiences import experiences;
+from hobbies import hobbies;
+from projet import projet;
+from about import about;
+
 #fonction pour clear le terminal
 def clearConsole():
     command = 'clear'
@@ -15,19 +23,15 @@ def clearConsole():
 #fonction switch
 def switch(command):
     if command=="about":
-        fileObject= open("about.json","r")
-        jsonContent = fileObject.read()
-        obj_about = json.loads(jsonContent)
-        print("Bonjour je suis",obj_about['nom'],obj_about['prenom'],", j'ai",obj_about['age'],"ans.\nJe suis passionee par l'informatique depuis 2018.\nActuellement, je suis ",obj_about['situation'],"a",obj_about['ville'],".\nVoici mon lien github :\x1b[38;5;41m\x1b[4m",obj_about['github'],"\x1b[0m")
-        return ""
+        about();
     elif command=="experiences":
-        return "experiences"
+        experiences();
     elif command=="projets":
-        return "projets"
+        projet();
     elif command=="formations":
-        return "formations"
+        formation();
     elif command=="hobbies":
-        return "hobbies"
+        hobbies();
     elif command=="cv pdf":
         return "a venir\n" #urllib.request.urlretrieve('lien a venir', "cv_raphaelle_huynh.pdf")
     elif command=="clear":
